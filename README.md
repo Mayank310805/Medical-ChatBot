@@ -33,3 +33,9 @@ MedicBot is a multimodal, voice-interactive AI healthcare assistant that enables
 
 ## 📁 Project Structure
 
+├── gradio_app.py # Main Gradio interface
+├── voice_of_the_patient.py # Handles audio recording and transcription
+├── voice_of_the_doctor.py # Converts AI text to speech using gTTS
+├── brain_of_the_doctor.py # Processes image and text through LLM
+├── assets/ # (Optional) store uploaded/test images/audio
+└── requirements.txt # List of dependencies
